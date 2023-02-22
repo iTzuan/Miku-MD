@@ -4987,26 +4987,10 @@ const mikuarray= [
 
 break
 
-  
-
-
- case 'add':{     			
-    if (!m.isGroup) return replay(mess.grouponly)
-/* if (!isBotAdmins) return replay(mess.botadmin)
- let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
- if (users.length == 0) return replay(`Please write the number of the person you want to add to thhis group`)
-  await Miku.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => replay(`User Added Successfully!`)).catch((err) => replay(`Cannot add that user to this group!`))
- } */
-reply(`TYPE {prefix}help 0r {prefix}menu TO GET LIST`)
- break
-
-
 
  case "tts":  case "texttospeech":  case "say": case "speak":{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-	 reply('WAIT IM WORKING ON IT')
-
     if (!args[0]) return reply("Please give me a text so that i can speak it!")
       
       let texttosay = text
