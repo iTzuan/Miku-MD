@@ -5005,6 +5005,7 @@ reply(`TYPE {prefix}help 0r {prefix}menu TO GET LIST`)
  case "tts":  case "texttospeech":  case "say": case "speak":{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
+	 reply('WAIT IM WORKING ON IT')
 
     if (!args[0]) return reply("Please give me a text so that i can speak it!")
       
@@ -5017,7 +5018,7 @@ reply(`TYPE {prefix}help 0r {prefix}menu TO GET LIST`)
       const texttospeechurl = SpeakEngine.getAudioUrl(texttosay, {lang: "en", slow: false, host: "https://translate.google.com",});
       Miku.sendMessage(m.chat,{audio: {url: texttospeechurl,},mimetype: "audio/mpeg",fileName: `MikuSpeechEngine.mp3`,},{quoted: m,});
     }
-    break;
+    break
 
 
     case 'qr': case 'qrcode':
