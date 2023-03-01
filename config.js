@@ -7,13 +7,13 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['917086726371']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
-global.OwnerNumber = ['917086726371']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
-global.ownertag = ['917086726371']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
-global.BotName = "Alena-Alfa"
-global.packname = "Alena bot"
-global.author = "By: TIKU☯️"
-global.OwnerName = "TIKU☯️"
+global.Owner = ['62816866266']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
+global.OwnerNumber = ['62816866266']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
+global.ownertag = ['62816866266']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
+global.BotName = "RFN"
+global.packname = "RFN"
+global.author = "RFN"
+global.OwnerName = "RFN"
 global.BotSourceCode = "https://github.com/Anime2130k/Anime2130k" // -- Please don't change -- //
 global.SupportGroupLink = "https://chat.whatsapp.com/DeMN9Tsa5ZCG5WneBlykXg"  // -- Please don't change -- //
 global.sessionName = "session"  // -- Don't change otherwise bot will not work -- //
@@ -98,7 +98,7 @@ global.APIs = {
 	zenz: 'https://zenzapis.xyz',
 }
 global.APIKeys = {
-	'https://zenzapis.xyz': '5d1197db351b',
+	'https://zenzapis.xyz': '92ed0c8c3f',
 }
 
 
